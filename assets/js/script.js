@@ -9,13 +9,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-let options = ["rock", "paper", "scissors", "lizard", "spock"];
+let options = ["fist", "paper", "scissors", "lizard", "spock"];
 let rules = {
     rock: ["scissors", "lizard"],
-    paper: ["rock", "spock"],
+    paper: ["fist", "spock"],
     scissors: ["paper", "lizard"],
     lizard: ["spock", "paper"],
-    spock: ["scissors", "rock"],
+    spock: ["scissors", "fist"],
 };
 
 function playGame(playerChoice) {
