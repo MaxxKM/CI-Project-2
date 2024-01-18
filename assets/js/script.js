@@ -16,7 +16,7 @@ let rules = {
     spock: ["scissors", "fist"],
 };
 
-function playGame() {
+function playGame(playerChoice) {
     // Generates random computer choice with Math functions and "options" array length
     let computerChoice = options[Math.floor(Math.random() * options.length)];
 
@@ -33,17 +33,17 @@ function playGame() {
         case "lose":
             incrementLostScore();
             break;    
-    }
 }
 
-function determineOutcome(playerChoice, computerChoice) {
-    if (playerChoice === computerChoice) {
-        return "draw";
+    function determineOutcome(playerChoice, computerChoice) {
+        if (playerChoice === computerChoice) {
+            return "draw";
+        }
+        if (rules[computerChoice].includes(playerChoice)) {
+            return "lose";
+        }
+        return "win";
     }
-    if (rules[computerChoice].includes(playerChoice)) {
-        return "lose";
-    }
-    return "win";
 }
 
 function incrementWinScore() {
@@ -55,11 +55,11 @@ function incrementWinScore() {
 function incrementDraw() {
     let won = document.getElementById("draw");
     let currentScore = Number(draw.textContent) || 0;
-    won.textContent = currentScore + 1;
+    draw.textContent = currentScore + 1;
 }
 
 function incrementLostScore() {
     let won = document.getElementById("lost");
     let currentScore = Number(lost.textContent) || 0;
-    won.textContent = currentScore + 1;
+    lost.textContent = currentScore + 1;
 }
