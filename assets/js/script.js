@@ -17,7 +17,10 @@ let rules = {
 };
 
 function playGame() {
+    // Generates random computer choice with Math functions and "options" array length
+    let computerChoice = options[Math.floor(Math.random() * options.length)];
 
+    
 }
 
 function determineOutcome(playerChoice, computerChoice) {
