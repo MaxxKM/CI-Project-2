@@ -16,3 +16,22 @@ let rules = {
     spock: ["scissors", "fist"],
 };
 
+function playGame() {
+
+}
+
+function determineOutcome() {
+
+}
+
+function incrementWinScore() {
+
+}
+
+function incrementDraw() {
+
+}
+
+function incrementLostScore() {
+
+}
