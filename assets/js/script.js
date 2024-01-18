@@ -7,3 +7,12 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+let options = ["rock", "paper", "scissors", "lizard", "spock"];
+let rules = {
+    fist: ["scissors", "lizard"],
+    paper: ["fist", "spock"],
+    scissors: ["paper", "lizard"],
+    lizard: ["spock", "paper"],
+    spock: ["scissors", "fist"],
+};
+
