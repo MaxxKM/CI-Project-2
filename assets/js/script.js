@@ -20,8 +20,14 @@ function playGame() {
 
 }
 
-function determineOutcome() {
-
+function determineOutcome(playerChoice, computerChoice) {
+    if (playerChoice === computerChoice) {
+        return "draw";
+    }
+    if (rules[computerChoice].includes(playerChoice)) {
+        return "lose";
+    }
+    return "win";
 }
 
 function incrementWinScore() {
