@@ -28,10 +28,10 @@ body {
 }
 
 .reveal-area {
-    background-color: green;
     display: flex;
     justify-content: space-evenly;
     font-size: 2rem;
+    padding: 2rem 0;
 }
 
 .score-area {
@@ -57,4 +57,12 @@ body {
 /* Enlargens buttons when hovered */
 .rpsbutton:hover {
     transform: scale(1.2);
+}
+
+.player-icon {
+    padding: 15px 0;
+}
+
+.computer-icon {
+    padding: 15px 0;
 }

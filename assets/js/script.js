@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 let options = ["fist", "paper", "scissors", "lizard", "spock"];
 let rules = {
-    rock: ["scissors", "lizard"],
+    fist: ["scissors", "lizard"],
     paper: ["fist", "spock"],
     scissors: ["paper", "lizard"],
     lizard: ["spock", "paper"],
@@ -39,44 +39,44 @@ function playGame(playerChoice) {
     let outcome = determineOutcome(playerChoice, computerChoice);
 
     switch (outcome) {
-        case "win":
+        case 'win':
             incrementWinScore();
             break;
-        case "draw":
+        case 'draw':
             incrementDraw();
             break;
-        case "lose":
+        case 'lose':
             incrementLostScore();
             break;
-    }
+}
 
     function determineOutcome(playerChoice, computerChoice) {
         if (playerChoice === computerChoice) {
-            return "draw";
+            return 'draw';
         }
 
         if (rules[computerChoice].includes(playerChoice)) {
-            return "lose";
+            return 'lose';
         }
 
-        return "win";
+        return 'win';
     }
 }
 
 function incrementWinScore() {
-    let won = document.getElementById("won");
+    let won = document.getElementById('won');
     let currentScore = Number(won.textContent) || 0;
     won.textContent = currentScore + 1;
 }
 
 function incrementDraw() {
-    let draw = document.getElementById("draw");
+    let draw = document.getElementById('draw');
     let currentScore = Number(draw.textContent) || 0;
     draw.textContent = currentScore + 1;
 }
 
 function incrementLostScore() {
-    let lost = document.getElementById("lost");
+    let lost = document.getElementById('lost');
     let currentScore = Number(lost.textContent) || 0;
     lost.textContent = currentScore + 1;
 }
