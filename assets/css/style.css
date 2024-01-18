@@ -1,5 +1,5 @@
 body {
-    background-color: lightcoral;
+    background-color: rgb(255, 255, 255);
     font-family: 'Oswald', sans-serif;
     text-align: center;
 }
@@ -12,7 +12,7 @@ body {
 /* Game Area */
 
 .game-area {
-    background-color: grey;
+    background-color: rgb(201, 201, 201);
     width: 80%;
     padding: 1rem;
     margin-left: auto;
@@ -20,7 +20,6 @@ body {
 }
 
 .choice-area {
-    background-color: aqua;
     margin: 10px auto;
     display: flex;
     justify-content: space-evenly;
@@ -31,13 +30,23 @@ body {
 }
 
 .result-area {
-    background-color: darkblue;
     text-align: center;
+    width: 80%;
+    padding: 1rem;
+ 
+       margin-left: auto;
+    margin-right: auto;font-size: 2rem;
 }
 
 .score-area {
-    background-color: orange;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    width: 80%;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .rpsbutton {
@@ -46,7 +55,10 @@ body {
     height: 120px;
     width: 120px;
     background-color: transparent;
+    cursor: pointer;
+    transition: 100ms;
 }
-.fa {
-
+/* Enlargens buttons when hovered */
+.rpsbutton:hover {
+    transform: scale(1.2);
 }
