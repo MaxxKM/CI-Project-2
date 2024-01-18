@@ -53,9 +53,13 @@ function incrementWinScore() {
 }
 
 function incrementDraw() {
-
+    let won = document.getElementById("draw");
+    let currentScore = Number(draw.textContent) || 0;
+    won.textContent = currentScore + 1;
 }
 
 function incrementLostScore() {
-
+    let won = document.getElementById("lost");
+    let currentScore = Number(lost.textContent) || 0;
+    won.textContent = currentScore + 1;
 }
