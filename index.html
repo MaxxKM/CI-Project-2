@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <title>Rock, Paper, Scissors, Lizard, Spock</title>
+  </head>
+  <body>
+    <h1 class="heading">Rock, Paper, Scissors, Lizard, Spock</h1>
+
+    <!-- Game Area-->
+    <div class="game-area">
+        <!--Choices-->
+      <div class="choice-area">
+        <button class="rock rpsbutton">
+            <i class="fa-solid fa-hand-fist fa-4x"></i>
+        </button>
+        <button class="paper rpsbutton">
+            <i class="fa-solid fa-hand fa-4x"></i>
+        </button>
+        <button class="scissors rpsbutton">
+            <i class="fa-solid fa-hand-scissors fa-4x"></i>
+        </button>
+        <button class="lizard rpsbutton">
+            <i class="fa-solid fa-hand-lizard fa-4x"></i>
+        </button>
+        <button class="spock rpsbutton">
+            <i class="fa-solid fa-hand-spock fa-4x"></i>
+        </button>
+      </div>
+    <!--Reveal-->
+      <div class="reveal-area">
+        <div>You</div>
+        <div>Computer</div>
+      </div>
+    </div>
+    <!--Results-->
+    <div class="result-area">Result</div>
+    <!--Scores-->
+    <div class="score-area">
+        <p class="scores">Won: <span id="won">0</span></p>
+        <p class="scores">Draw: <span id="draw">0</span></p>
+        <p class="scores">Lost: <span id="lost">0</span></p>
+    </div>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/e98757fe43.js" crossorigin="anonymous"></script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
