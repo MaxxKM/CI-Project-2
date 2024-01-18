@@ -20,7 +20,20 @@ function playGame() {
     // Generates random computer choice with Math functions and "options" array length
     let computerChoice = options[Math.floor(Math.random() * options.length)];
 
-    
+    let outcome = determineOutcome(playerChoice, computerChoice);
+
+    // calls on increment functions depending on outcome
+    switch (outcome) {
+        case "win":
+            incrementWinScore();
+            break;
+        case "draw":
+            incrementDraw();
+            break
+        case "lose":
+            incrementLostScore();
+            break;    
+    }
 }
 
 function determineOutcome(playerChoice, computerChoice) {
