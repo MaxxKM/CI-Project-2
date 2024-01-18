@@ -19,30 +19,32 @@
     <div class="game-area">
         <!--Choices-->
       <div class="choice-area">
-        <button class="rock rpsbutton" data-type="rock">
+        <button class="rpsbutton" data-type="fist" id="fist">
             <i class="fa-solid fa-hand-fist fa-4x"></i>
         </button>
-        <button class="paper rpsbutton" data-type="paper">
+        <button class="rpsbutton" data-type="paper" id="paper">
             <i class="fa-solid fa-hand fa-4x"></i>
         </button>
-        <button class="scissors rpsbutton" data-type="scissors">
+        <button class="rpsbutton" data-type="scissors" id="scissors">
             <i class="fa-solid fa-hand-scissors fa-4x"></i>
         </button>
-        <button class="lizard rpsbutton" data-type="lizard">
+        <button class="rpsbutton" data-type="lizard" id="lizard">
             <i class="fa-solid fa-hand-lizard fa-4x"></i>
         </button>
-        <button class="spock rpsbutton" data-type="spock">
+        <button class="rpsbutton" data-type="spock" id="spock">
             <i class="fa-solid fa-hand-spock fa-4x"></i>
         </button>
       </div>
     <!--Reveal-->
       <div class="reveal-area">
-        <div>You</div>
-        <div>Computer</div>
+        <div class="player-icon">You:
+            <div id="players-choice"></div>
+        </div>
+        <div class="computer-icon">Computer:
+            <div id="computers-choice"></div>
+        </div>
       </div>
     </div>
-    <!--Results-->
-    <div class="result-area">Result</div>
     <!--Scores-->
     <div class="score-area">
         <p class="scores">Won: <span id="won">0</span></p>

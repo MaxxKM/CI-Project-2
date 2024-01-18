@@ -7,6 +7,7 @@ body {
 .heading {
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
+    font-size: 3rem;
 }
 
 /* Game Area */
@@ -23,19 +24,14 @@ body {
     margin: 10px auto;
     display: flex;
     justify-content: space-evenly;
+    font-size: 5px;
 }
 
 .reveal-area {
     background-color: green;
-}
-
-.result-area {
-    text-align: center;
-    width: 80%;
-    padding: 1rem;
- 
-       margin-left: auto;
-    margin-right: auto;font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
 }
 
 .score-area {
