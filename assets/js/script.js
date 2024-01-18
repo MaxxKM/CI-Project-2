@@ -47,7 +47,9 @@ function determineOutcome(playerChoice, computerChoice) {
 }
 
 function incrementWinScore() {
-
+    let won = document.getElementById("won");
+    let currentScore = Number(won.textContent) || 0;
+    won.textContent = currentScore + 1;
 }
 
 function incrementDraw() {
