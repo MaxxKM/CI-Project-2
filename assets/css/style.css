@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     font-size: 5px;
+    color: black;
 }
 
 .reveal-area {
@@ -54,6 +55,11 @@ body {
     cursor: pointer;
     transition: 100ms;
 }
+
+#resultArea {
+    text-align: center;
+}
+
 /* Enlargens buttons when hovered */
 .rpsbutton:hover {
     transform: scale(1.2);
