@@ -144,6 +144,8 @@ The project was deployed with GitHub using these steps...
 - The page will refresh
 - Scroll back down and locate the published site link in the 'GitHub pages' section.
 
+## Credits
+
 ### Code
 
 - The DOM content loaded information and general planning for functions was from [Code Institute's](https://codeinstitute.net/ie/) "Love Math" Project tutorials.
