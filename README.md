@@ -149,14 +149,6 @@ The project was deployed with GitHub using these steps...
 - The DOM content loaded information and general planning for functions was from [Code Institute's](https://codeinstitute.net/ie/) "Love Math" Project tutorials.
 - I got inspiration and knowledge from multiple channels on youtube who explained the logic behind functions and the multiple ways of coding Rock, Paper, Scissors. The channels are [Bro Code](https://www.youtube.com/@BroCodez), [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) and [developedbyed](https://www.youtube.com/@developedbyed).
 
-### Content & Media
-
-- All content was written by the developer, but helped with multiple sources (including the images) such as ...
-  - [Wikipedia](https://en.wikipedia.org/wiki/Battle_of_Alesia)
-  - [Britannica](https://www.britannica.com/event/Battle-of-Alesia-52-BCE)
-  - [ImperiumRomanum](https://imperiumromanum.pl/en/battles/battle-of-alesia/)
-  - [ThoughtCo](https://www.thoughtco.com/gallic-wars-battle-of-alesia-2360869)
-
 ### Acknowledgements
 
 - My mentor for continued help and feedback throughout the project.
