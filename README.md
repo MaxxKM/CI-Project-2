@@ -76,3 +76,46 @@ This is a website that allows the user to play a game of Rock, Paper, Scissors, 
     Balsamiq was used to make the wireframes, to plan the visual style and layout of the website before the initial code was written.
 6. [Favicon.io](https://favicon.io/favicon-converter/)
     Favicon was used to generate favicon files from an image.
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- [W3C Markup Validator](https://validator.w3.org/)
+- [W3C CSS VALDATOR](https://jigsaw.w3.org/css-validator/)
+
+### Testing User Stories from User Experience (UX) Section
+
+- #### First Time Visitor Goals
+
+   1. As a first time visitor, I want to have a enjoyable experience playing the sites game.
+      1. The game features a more complex version of Rock, Paper, Scissors adding more interest to the game.
+      2. The computer randomly generates choices against the player, so the player has the ability to play versus something.
+   2. As a first time visitor, I want to be able to easily navigate through the website.
+      1. The color scheme is simple and clean, and has contrast between areas allowing easy visiblity to where the player should be looking.
+      2. The icons are well contrasted and simple in design, giving easy selection for the player. it also features a different mouse icon to show the player they are clickable.
+      3. Font througout the site is clean and easily readable.  
+   3. As a first time visitor, I want to have interactive experience on the site.
+      1. The player has multiple options to select, to use against the computer's choices.
+      2. The selectable icons grow as the user hovers over them giving them an enjoyable selection of choices.
+  
+- #### Returning Visitor Goals
+
+   1. As a returning visitor, I want to have replayability of the game.
+      1. The player can play the game for however long they desire, due to no limits.
+      2. The scores are reset everytime the site is refreshed.
+   2. As a returning visitor, I want to be able to challenge my previous scores and better them.
+      1. Score is tracked as the user plays, giving them the information on how well they are doing.
+      2. Since the scores reset, the user can try beat their previous scores. 
+
+### Further Testing
+
+- The website was viewed on multiple devices such as iphone 15, laptop, tablet, PC.
+- All selection buttons were tested at multiple stages to make sure they work.
+- the computer's choices and the scores were testing at each stage of development to ensure they working correctly.
+
+### Known bugs
+
+- The icons on some mobiles appear blue.
+- The site used to feature a piece of text, notifying the user if they won or not, this was glitchy throughout development and I tried multiple different was to code it in. Unfortunately to no avail, so I decided to remove the feature due to it's unreliability.
+- Not so much a bug, but since I used favicon icons for the revealed choices icons, I had to rename 'rock' in the code to 'fist', since to show the icons I needed their specific names on the favicon site.
