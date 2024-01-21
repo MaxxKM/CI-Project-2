@@ -13,14 +13,14 @@ This is a website that allows the user to play a game of Rock, Paper, Scissors, 
 
   - #### First Time Visitor Goals
 
-        1. As a first time visitor, I want to have a enjoyable experience playing the sites game.
-        2. As a first time visitor, I want to be able to easily navigate through the website.
-        3. As a first time visitor, I want to have interactive experience on the site.
+    1. As a first time visitor, I want to have a enjoyable experience playing the sites game.
+    2. As a first time visitor, I want to be able to easily navigate through the website.
+    3. As a first time visitor, I want to have interactive experience on the site.
 
   - #### Returning Visitor Goals
 
-        1. As a returning visitor, I want to have replayability of the game.
-        2. As a returning visitor, I want to be able to challenge my previous scores and better them.
+    1. As a returning visitor, I want to have replayability of the game.
+    2. As a returning visitor, I want to be able to challenge my previous scores and better them.
 
 - ### Design
 
@@ -54,4 +54,25 @@ This is a website that allows the user to play a game of Rock, Paper, Scissors, 
 - #### Responsiveness
   - The website is responsive to different screen sizes.
     ![Image of sites responsiveness](assets/readme-images/responsive.png)
-  
+
+## Technologies Used
+
+### Languages used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Framesworks, Libraries & Programmes Used
+
+1. [Google Fonts](https://fonts.google.com/)
+    Google Fonts was used to styles the font throughout the website.
+2. [Font Awesome](https://fontawesome.com/)
+    Font Awesome was used to add the icons for the icons for the users choices and the reveal icons.
+3. [Git](https://git-scm.com)
+    Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
+4. [GitHub](https://github.com/)
+    GitHub was used to store the projects code after being pushed by Git.
+5. [Balsamiq](https://balsamiq.com)
+    Balsamiq was used to make the wireframes, to plan the visual style and layout of the website before the initial code was written.
+6. [Favicon.io](https://favicon.io/favicon-converter/)
+    Favicon was used to generate favicon files from an image.
