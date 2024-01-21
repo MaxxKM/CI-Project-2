@@ -82,7 +82,17 @@ This is a website that allows the user to play a game of Rock, Paper, Scissors, 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - [W3C Markup Validator](https://validator.w3.org/)
+  ![](assets/readme-images/html-val.png)
 - [W3C CSS VALDATOR](https://jigsaw.w3.org/css-validator/)
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+- []()
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -117,5 +127,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known bugs
 
 - The icons on some mobiles appear blue.
-- The site used to feature a piece of text, notifying the user if they won or not, this was glitchy throughout development and I tried multiple different was to code it in. Unfortunately to no avail, so I decided to remove the feature due to it's unreliability.
+- The site used to feature a piece of text, notifying the user if they won or not, this was glitchy throughout development and I tried multiple different ways to code it in. Unfortunately to no avail, so I decided to remove the feature due to it's unreliability.
 - Not so much a bug, but since I used favicon icons for the revealed choices icons, I had to rename 'rock' in the code to 'fist', since to show the icons I needed their specific names on the favicon site.
+
+## Deployment
+
+### Github pages
+
+The project was deployed with GitHub using these steps...
+
+- Log in to Github and locate the GitHub repository 'CI-Project-1'
+- At the top of the repository locate the 'Settings' button.
+- Scroll down the settings page until you locate the 'GitHub Pages'.
+- Under 'Source', select 'none' and select master 'branch'.
+- The page will refresh
+- Scroll back down and locate the published site link in the 'GitHub pages' section.
+
+### Preview Site Port
+
+I also deployed a preview of the site throughout the process through a local port.
+
+- In codeanywhere I would select the terminal and write 'python3 -m https.server'
+- I would select the 'Port' tab in the bottom right.
+- I would select Port 8000 and click 'open in a new tab'.
